@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Quote</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg-start: #fef6e4;
+        --bg-end: #dff8eb;
+        --card: rgba(255, 255, 255, 0.78);
+        --text: #172c66;
+        --accent: #f582ae;
+        --muted: #5f6c7b;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+        font-family: Georgia, "Times New Roman", serif;
+        background: linear-gradient(135deg, var(--bg-start), var(--bg-end));
+        color: var(--text);
+      }
+
+      .card {
+        width: min(720px, 100%);
+        padding: 32px;
+        border-radius: 28px;
+        background: var(--card);
+        box-shadow: 0 24px 60px rgba(23, 44, 102, 0.14);
+        backdrop-filter: blur(10px);
+      }
+
+      .eyebrow {
+        margin: 0 0 12px;
+        font-size: 0.95rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+
+      h1 {
+        margin: 0 0 20px;
+        font-size: clamp(2rem, 5vw, 3.5rem);
+        line-height: 1;
+      }
+
+      blockquote {
+        margin: 0;
+        font-size: clamp(1.4rem, 3vw, 2rem);
+        line-height: 1.5;
+      }
+
+      .author {
+        margin-top: 18px;
+        font-size: 1.1rem;
+        color: var(--accent);
+        font-weight: 700;
+      }
+
+      .meta {
+        margin-top: 24px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <p class="eyebrow">Automated by GitHub Actions</p>
+      <h1>Daily Quote</h1>
+      <blockquote id="quote">Loading today's quote...</blockquote>
+      <p class="author" id="author"></p>
+      <p class="meta" id="updated"></p>
+    </main>
+
+    <script>
+      async function loadQuote() {
+        const response = await fetch("./latest-quote.json", { cache: "no-store" });
+        const data = await response.json();
+
+        document.getElementById("quote").textContent = '"' + data.quote + '"';
+        document.getElementById("author").textContent = "- " + data.author;
+        document.getElementById("updated").textContent =
+          "Last updated: " + data.updated_at;
+      }
+
+      loadQuote().catch(() => {
+        document.getElementById("quote").textContent =
+          "The quote could not be loaded yet.";
+        document.getElementById("author").textContent = "";
+        document.getElementById("updated").textContent =
+          "Push this project to GitHub and enable GitHub Pages to view it online.";
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+name: Daily Quote Automation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 9 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  generate-quote:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate daily quote
+        run: python scripts/generate_quote.py
+
+      - name: Commit updated quote files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/latest-quote.json quotes-history.md
+          git diff --cached --quiet && exit 0
+          git commit -m "Update daily quote"
+          git push
