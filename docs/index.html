@@ -202,6 +202,13 @@
         font-family: "Trebuchet MS", "Segoe UI", sans-serif;
       }
 
+      .source {
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.88rem;
+        font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+      }
+
       .button {
         border: 0;
         border-radius: 999px;
@@ -277,6 +284,7 @@
           <section class="quote-panel">
             <blockquote id="quote">Loading today's quote...</blockquote>
             <p class="author" id="author"></p>
+            <p class="source" id="source"></p>
             <div class="footer">
               <p class="meta" id="updated"></p>
               <button class="button" id="share-button" type="button">
@@ -293,7 +301,8 @@
         "date": "2026-03-18",
         "updated_at": "2026-03-18 00:00:00 UTC",
         "quote": "Start where you are. Use what you have. Do what you can.",
-        "author": "Arthur Ashe"
+        "author": "Arthur Ashe",
+        "source": "Local fallback"
       };
 
       const shareButton = document.getElementById("share-button");
@@ -302,6 +311,7 @@
         const data = window.__QUOTE_DATA__;
         document.getElementById("quote").textContent = '"' + data.quote + '"';
         document.getElementById("author").textContent = "- " + data.author;
+        document.getElementById("source").textContent = "Source: " + data.source;
         document.getElementById("updated").textContent =
           "Last updated: " + data.updated_at;
       }
@@ -326,6 +336,7 @@
         document.getElementById("quote").textContent =
           "The quote could not be loaded yet.";
         document.getElementById("author").textContent = "";
+        document.getElementById("source").textContent = "";
         document.getElementById("updated").textContent =
           "The site data is still being prepared.";
         shareButton.disabled = true;
