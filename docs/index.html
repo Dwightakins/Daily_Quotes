@@ -289,12 +289,17 @@
     </div>
 
     <script>
+      window.__QUOTE_DATA__ = {
+        "date": "2026-03-18",
+        "updated_at": "2026-03-18 00:00:00 UTC",
+        "quote": "Start where you are. Use what you have. Do what you can.",
+        "author": "Arthur Ashe"
+      };
+
       const shareButton = document.getElementById("share-button");
 
-      async function loadQuote() {
-        const response = await fetch("./latest-quote.json", { cache: "no-store" });
-        const data = await response.json();
-
+      function loadQuote() {
+        const data = window.__QUOTE_DATA__;
         document.getElementById("quote").textContent = '"' + data.quote + '"';
         document.getElementById("author").textContent = "- " + data.author;
         document.getElementById("updated").textContent =
@@ -315,14 +320,16 @@
 
       shareButton.addEventListener("click", copySiteLink);
 
-      loadQuote().catch(() => {
+      try {
+        loadQuote();
+      } catch {
         document.getElementById("quote").textContent =
           "The quote could not be loaded yet.";
         document.getElementById("author").textContent = "";
         document.getElementById("updated").textContent =
-          "Push this project to GitHub and enable GitHub Pages to view it online.";
+          "The site data is still being prepared.";
         shareButton.disabled = true;
-      });
+      }
     </script>
   </body>
 </html>

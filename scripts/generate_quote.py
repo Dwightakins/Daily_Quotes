@@ -9,6 +9,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DOCS_DIR = ROOT / "docs"
 QUOTE_FILE = DOCS_DIR / "latest-quote.json"
 HISTORY_FILE = ROOT / "quotes-history.md"
+INDEX_FILE = DOCS_DIR / "index.html"
+INDEX_DATA_MARKER = "window.__QUOTE_DATA__ = "
 
 QUOTES = [
     {
@@ -65,6 +67,22 @@ def create_history_file(entry: str) -> str:
     )
 
 
+def update_index_file(payload: dict[str, str]) -> None:
+    content = INDEX_FILE.read_text(encoding="utf-8")
+    marker_start = content.find(INDEX_DATA_MARKER)
+    if marker_start == -1:
+        raise ValueError("Quote data marker not found in docs/index.html")
+
+    json_start = marker_start + len(INDEX_DATA_MARKER)
+    json_end = content.find(";", json_start)
+    if json_end == -1:
+        raise ValueError("Quote data marker is missing a closing semicolon")
+
+    embedded_data = json.dumps(payload, indent=8)
+    updated = f"{content[:json_start]}{embedded_data}{content[json_end:]}"
+    INDEX_FILE.write_text(updated, encoding="utf-8")
+
+
 def main() -> None:
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -79,6 +97,7 @@ def main() -> None:
         "author": quote["author"],
     }
     QUOTE_FILE.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+    update_index_file(payload)
 
     entry = build_history_entry(timestamp, quote)
     if HISTORY_FILE.exists():
