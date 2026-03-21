@@ -28,7 +28,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/latest-quote.json quotes-history.md
+          git add docs/index.html docs/latest-quote.json quotes-history.md
           git diff --cached --quiet && exit 0
           git commit -m "Update daily quote"
           git push
