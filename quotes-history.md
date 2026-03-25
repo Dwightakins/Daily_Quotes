@@ -11,3 +11,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-03-22 07:39:49 UTC: "Excellence is not an exception, it is a prevailing attitude." - Colin Powell
 - 2026-03-23 08:02:31 UTC: "You are now, and you do become, what you think about." - Earl Nightingale
 - 2026-03-24 07:54:44 UTC: "It's easier to lose than to win.  " - Wayne Gretzky
+- 2026-03-25 07:54:17 UTC: "Everything you've ever wanted is on the other side of fear." - Brian Tracy
