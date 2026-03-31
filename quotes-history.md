@@ -17,3 +17,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-03-28 07:44:16 UTC: "Intense love does not measure, it just gives." - Mother Teresa
 - 2026-03-29 07:52:42 UTC: "Spend eighty percent of your time focusing on the opportunities of tomorrow rather than the problems of yesterday." - Brian Tracy
 - 2026-03-30 08:22:26 UTC: "Success is about creating value." - Candice Carpenter
+- 2026-03-31 08:09:50 UTC: "I thought how unpleasant it is to be locked out; and I thought how it is worse, perhaps, to be locked in." - Virginia Woolf
