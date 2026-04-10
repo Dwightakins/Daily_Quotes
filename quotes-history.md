@@ -27,3 +27,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-04-07 08:14:04 UTC: "Start where you are. Use what you have. Do what you can." - Arthur Ashe
 - 2026-04-08 08:13:30 UTC: "It's OK to have your eggs in one basket as long as you control what happens to that basket." - Elon Musk
 - 2026-04-09 08:21:09 UTC: "The greatest treasures are those invisible to the eye but found by the heart." - Judy Garland
+- 2026-04-10 08:21:39 UTC: "He who wishes to be obeyed must know how to command." - Niccolo Machiavelli
