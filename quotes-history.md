@@ -36,3 +36,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-04-16 08:27:09 UTC: "Respect was invented to cover the empty place where love should be." - Leo Tolstoy
 - 2026-04-17 08:26:36 UTC: "Without struggle, no progress and no result. Every breaking of habit produces a change in the machine." - G.I. Gurdjieff
 - 2026-04-18 07:59:57 UTC: "Still your waters." - Josh Waitzkin
+- 2026-04-19 08:06:23 UTC: "If you go out looking for friends, you're going to find they are very scarce. If you go out to be a friend, you'll find them everywhere." - Zig Ziglar
