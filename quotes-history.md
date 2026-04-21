@@ -38,3 +38,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-04-18 07:59:57 UTC: "Still your waters." - Josh Waitzkin
 - 2026-04-19 08:06:23 UTC: "If you go out looking for friends, you're going to find they are very scarce. If you go out to be a friend, you'll find them everywhere." - Zig Ziglar
 - 2026-04-20 09:07:49 UTC: "Freedom lies in being bold." - Robert Frost
+- 2026-04-21 08:53:00 UTC: "Your heart is the size of an ocean. Go find yourself in its hidden depths." - Rumi
