@@ -12,7 +12,8 @@ DOCS_DIR = ROOT / "docs"
 QUOTE_FILE = DOCS_DIR / "latest-quote.json"
 HISTORY_FILE = ROOT / "quotes-history.md"
 INDEX_FILE = DOCS_DIR / "index.html"
-INDEX_DATA_MARKER = "window.__QUOTE_DATA__ = "
+INDEX_DATA_START_MARKER = "/* QUOTE_DATA_START */"
+INDEX_DATA_END_MARKER = "/* QUOTE_DATA_END */"
 ZENQUOTES_TODAY_URL = "https://zenquotes.io/api/today"
 
 FALLBACK_QUOTE = {
@@ -60,17 +61,14 @@ def create_history_file(entry: str) -> str:
 
 def update_index_file(payload: dict[str, str]) -> None:
     content = INDEX_FILE.read_text(encoding="utf-8")
-    marker_start = content.find(INDEX_DATA_MARKER)
-    if marker_start == -1:
-        raise ValueError("Quote data marker not found in docs/index.html")
+    marker_start = content.find(INDEX_DATA_START_MARKER)
+    marker_end = content.find(INDEX_DATA_END_MARKER)
+    if marker_start == -1 or marker_end == -1 or marker_end <= marker_start:
+        raise ValueError("Quote data markers not found in docs/index.html")
 
-    json_start = marker_start + len(INDEX_DATA_MARKER)
-    json_end = content.find(";", json_start)
-    if json_end == -1:
-        raise ValueError("Quote data marker is missing a closing semicolon")
-
-    embedded_data = json.dumps(payload, indent=8)
-    updated = f"{content[:json_start]}{embedded_data}{content[json_end:]}"
+    data_start = marker_start + len(INDEX_DATA_START_MARKER)
+    embedded_data = "\n" + json.dumps(payload, indent=8) + "\n      "
+    updated = f"{content[:data_start]}{embedded_data}{content[marker_end:]}"
     INDEX_FILE.write_text(updated, encoding="utf-8")
 
 
