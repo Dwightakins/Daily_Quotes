@@ -48,3 +48,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-04-28 09:23:31 UTC: "Self-knowledge is the beginning of self-correction." - Norman Vincent Peale
 - 2026-04-29 09:10:23 UTC: "Over time, loneliness gets inside you and doesn't go away." - Carlos Ruiz Zafon
 - 2026-04-30 09:12:36 UTC: "Those who cannot change their minds cannot change anything." - George Bernard Shaw
+- 2026-05-01 09:02:21 UTC: "Duty makes us do things well, but love makes us do them beautifully.  " - Zig Ziglar
