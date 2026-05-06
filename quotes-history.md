@@ -53,3 +53,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-05-03 08:47:39 UTC: "Your best life will not be found in comfort. It will be found in fighting for what you believe in." - Maxime Lagace
 - 2026-05-04 09:21:26 UTC: "Strategy without tactics is the slowest route to victory. Tactics without strategy is the noise before defeat." - Sun Tzu
 - 2026-05-05 09:07:12 UTC: "Throw your heart over the bar and your body will follow." - Norman Vincent Peale
+- 2026-05-06 09:24:00 UTC: "If what you're doing is not your passion, you have nothing to lose." - Celestine Chua
