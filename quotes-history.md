@@ -60,3 +60,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-05-10 08:55:26 UTC: "The majority of what you want will come from the minority of what you do." - Gary Keller
 - 2026-05-11 10:38:43 UTC: "We don't stop playing because we grow old; we grow old because we stop playing." - George Bernard Shaw
 - 2026-05-12 09:42:24 UTC: "There is no sadder sight than a young pessimist." - Mark Twain
+- 2026-05-13 09:46:23 UTC: "Genius is one percent inspiration and ninety-nine percent perspiration." - Thomas Edison
