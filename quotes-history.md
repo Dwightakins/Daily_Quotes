@@ -67,3 +67,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-05-17 09:06:50 UTC: "You play the hand you're dealt. I think the game's worthwhile.  " - Christopher Reeve
 - 2026-05-18 11:07:47 UTC: "People do not decide their futures, they decide their habits and their habits decide their futures." - Gary Keller
 - 2026-05-19 10:37:33 UTC: "The older you get, the better you get. Unless you're a banana." - Betty White
+- 2026-05-20 10:25:06 UTC: "I try more and more to be myself, caring relatively little whether people approve or disapprove." - Vincent van Gogh
