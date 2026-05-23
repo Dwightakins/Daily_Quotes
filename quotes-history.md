@@ -70,3 +70,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-05-20 10:25:06 UTC: "I try more and more to be myself, caring relatively little whether people approve or disapprove." - Vincent van Gogh
 - 2026-05-21 10:40:24 UTC: "When you're the only sane person, you look like the only insane person." - Criss Jami
 - 2026-05-22 10:24:59 UTC: "I love fools' experiments. I am always making them." - Charles Darwin
+- 2026-05-23 09:02:15 UTC: "Learn only how to avoid seeking for and attaching yourselves to anything." - Huang Po
