@@ -74,3 +74,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-05-24 09:21:58 UTC: "Presents are made for the pleasure of who gives them, not the merits of who receives them." - Carlos Ruiz Zafon
 - 2026-05-25 11:11:50 UTC: "The secret of happiness, you see, is not found in seeking more, but in developing the capacity to enjoy less." - Dan Millman
 - 2026-05-27 10:56:06 UTC: "Being wrong opens us up to the possibility of change." - Mark Manson
+- 2026-05-28 10:56:58 UTC: "You just can't beat the person who never gives up." - Babe Ruth
