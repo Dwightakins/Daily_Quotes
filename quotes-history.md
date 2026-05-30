@@ -76,3 +76,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-05-27 10:56:06 UTC: "Being wrong opens us up to the possibility of change." - Mark Manson
 - 2026-05-28 10:56:58 UTC: "You just can't beat the person who never gives up." - Babe Ruth
 - 2026-05-29 10:47:10 UTC: "Do something to move yourself toward your major goal every day." - Brian Tracy
+- 2026-05-30 09:19:18 UTC: "Confidence is not a guarantee of success, but a pattern of thinking that will improve your likelihood of success, a tenacious search for ways to make things work." - John Eliot
