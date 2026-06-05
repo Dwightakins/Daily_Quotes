@@ -82,3 +82,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-06-02 11:19:14 UTC: "The only thing worse than being blind is having sight but no vision." - Helen Keller
 - 2026-06-03 11:57:08 UTC: "You are always your own best guru, your own best teacher, the answers are always inside you." - Sathya Sai Baba
 - 2026-06-04 10:39:04 UTC: "Expect the best of yourself, and then do what is necessary to make it a reality." - Ralph Marston
+- 2026-06-05 10:48:23 UTC: "One of the most difficult things is not to change society - but to change yourself." - Nelson Mandela
