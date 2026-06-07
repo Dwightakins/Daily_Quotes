@@ -84,3 +84,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-06-04 10:39:04 UTC: "Expect the best of yourself, and then do what is necessary to make it a reality." - Ralph Marston
 - 2026-06-05 10:48:23 UTC: "One of the most difficult things is not to change society - but to change yourself." - Nelson Mandela
 - 2026-06-06 09:26:46 UTC: "Start where you are. Use what you have. Do what you can." - Arthur Ashe
+- 2026-06-07 10:05:54 UTC: "A lot of people have gone further than they thought they could because someone else thought they could." - Zig Ziglar
