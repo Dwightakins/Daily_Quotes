@@ -87,3 +87,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-06-07 10:05:54 UTC: "A lot of people have gone further than they thought they could because someone else thought they could." - Zig Ziglar
 - 2026-06-08 11:58:46 UTC: "I like the dreams of the future better than the history of the past." - Thomas Jefferson
 - 2026-06-09 10:34:39 UTC: "Start where you are. Use what you have. Do what you can." - Arthur Ashe
+- 2026-06-10 10:56:50 UTC: "Short cuts make long delays." - J.R.R. Tolkien
