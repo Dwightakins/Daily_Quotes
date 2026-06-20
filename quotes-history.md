@@ -97,3 +97,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-06-17 11:49:30 UTC: "Never whine, never complain, never try to justify yourself." - Robert Greene
 - 2026-06-18 11:08:54 UTC: "But better die than live mechanically a life that is a repetition of repetitions." - D. H. Lawrence
 - 2026-06-19 11:24:39 UTC: "All we have to decide is what to do with the time that is given to us." - J.R.R. Tolkien
+- 2026-06-20 10:08:59 UTC: "Let us rather run the risk of wearing out than rusting out." - Theodore Roosevelt
