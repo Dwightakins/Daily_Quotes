@@ -102,3 +102,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-06-22 12:50:33 UTC: "Argue for your limitations and sure enough, they're yours." - Richard Bach
 - 2026-06-23 10:36:49 UTC: "You may be one person in this world, but to one person you may mean the world." - Unknown
 - 2026-06-24 10:23:15 UTC: "You're on earth. There's no cure for that." - Samuel Beckett
+- 2026-06-25 10:16:00 UTC: "The best fighter is never angry." - Lao Tzu
