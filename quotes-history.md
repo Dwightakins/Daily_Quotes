@@ -119,3 +119,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-07-09 10:25:43 UTC: "When you've got nothing, you've got nothing to lose." - Bob Dylan
 - 2026-07-10 10:24:06 UTC: "When something comes from within, when it is a part of you, you have no choice but to live it, to express it." - Kamal Ravikant
 - 2026-07-11 08:48:25 UTC: "Stuff your eyes with wonder... live as if you'd drop dead in ten seconds. See the world. It's more fantastic than any dream made or paid for in factories." - Ray Bradbury
+- 2026-07-12 09:02:40 UTC: "Success is a consequence and must not be a goal." - Gustave Flaubert
