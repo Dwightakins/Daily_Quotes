@@ -122,3 +122,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-07-12 09:02:40 UTC: "Success is a consequence and must not be a goal." - Gustave Flaubert
 - 2026-07-13 10:28:01 UTC: "Words, once they are printed, have a life of their own." - Carol Burnett
 - 2026-07-14 09:05:11 UTC: "Pain doesn't last. And when it's gone, we have something to show for it. Growth." - Kamal Ravikant
+- 2026-07-15 09:09:21 UTC: "There's no next time. It's now or never." - Celestine Chua
