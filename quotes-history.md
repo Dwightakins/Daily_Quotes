@@ -124,3 +124,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-07-14 09:05:11 UTC: "Pain doesn't last. And when it's gone, we have something to show for it. Growth." - Kamal Ravikant
 - 2026-07-15 09:09:21 UTC: "There's no next time. It's now or never." - Celestine Chua
 - 2026-07-16 09:15:22 UTC: "Knowing others is wisdom, knowing yourself is enlightenment." - Lao Tzu
+- 2026-07-17 09:10:36 UTC: "Death and life have their determined appointments; riches and honors depend upon heaven." - Confucius
