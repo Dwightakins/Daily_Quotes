@@ -133,3 +133,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-07-23 09:24:33 UTC: "You have the potential for greatness." - Steve Harvey
 - 2026-07-24 09:21:59 UTC: "Change is hard at first, messy in the middle and gorgeous at the end." - Robin Sharma
 - 2026-07-25 09:02:07 UTC: "It is amazing what you can accomplish if you do not care who gets the credit." - Harry S. Truman
+- 2026-07-26 09:12:21 UTC: "Let us rather run the risk of wearing out than rusting out." - Theodore Roosevelt
