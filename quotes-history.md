@@ -137,3 +137,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-07-27 10:43:37 UTC: "But better die than live mechanically a life that is a repetition of repetitions." - D. H. Lawrence
 - 2026-07-28 09:36:31 UTC: "Be kind, for everyone you meet is fighting a harder battle." - Plato
 - 2026-07-29 09:37:50 UTC: "If you let your head get too big, it'll break your neck." - Elvis Presley
+- 2026-07-30 09:31:31 UTC: "It isn't that they can't see the solution. It is that they can't see the problem." - Gilbert Chesterton
