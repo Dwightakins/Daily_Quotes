@@ -143,3 +143,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-08-02 09:09:05 UTC: "Yesterday is history, tomorrow is a mystery, today is God's gift, that's why we call it the present." - Joan Rivers
 - 2026-08-03 10:43:06 UTC: "It all depends on what you choose to believe." - Spencer Johnson
 - 2026-08-04 09:38:38 UTC: "Love never keeps a man from pursuing his destiny." - Paulo Coelho
+- 2026-08-05 09:36:45 UTC: "It is the nature of the wise to resist pleasures, but the foolish to be a slave to them." - Epictetus
