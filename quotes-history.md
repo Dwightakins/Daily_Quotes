@@ -211,3 +211,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-10-09 14:11:25 UTC: "The first thing you learn in life is you're a fool. The last thing you learn in life is you're the same fool." - Ray Bradbury
 - 2026-10-10 13:20:31 UTC: "Ability is a poor man's wealth." - John Wooden
 - 2026-10-11 13:49:43 UTC: "You only live once, but if you do it right, once is enough." - Mae West
+- 2026-10-12 16:33:05 UTC: "Those who know, do. Those that understand, teach." - Aristotle
