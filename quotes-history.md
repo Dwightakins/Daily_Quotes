@@ -217,3 +217,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-10-15 12:29:49 UTC: "Everything eaten is killed. Every meal is a sacrifice." - Adi Da Samraj
 - 2026-10-16 12:07:39 UTC: "As we first succeed, we will find ourselves in new situations, facing new problems." - Ryan Holiday
 - 2026-10-17 11:26:52 UTC: "You've got to get up every morning with determination if you're going to go to bed with satisfaction." - George Lorimer
+- 2026-10-18 11:57:55 UTC: "The greater the impact you want to make, the greater your influence needs to be." - Lolly Daskal
