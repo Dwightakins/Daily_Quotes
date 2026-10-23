@@ -222,3 +222,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-10-20 12:34:27 UTC: "Success is about doing the right thing, not about doing everything right." - Gary Keller
 - 2026-10-21 12:45:38 UTC: "Each day your life grows a day shorter. Make every move count." - Ming-Dao Deng
 - 2026-10-22 12:49:08 UTC: "The secret of getting started is breaking your complex, overwhelming tasks into small manageable tasks, and then starting on the first one." - Mark Twain
+- 2026-10-23 12:27:34 UTC: "If someone betrays you once, it's their fault; if they betray you twice, it's your fault." - Eleanor Roosevelt
