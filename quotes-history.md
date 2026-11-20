@@ -250,3 +250,4 @@ This file stores the quotes chosen by the GitHub automation.
 - 2026-11-17 16:44:17 UTC: "If you can't argue both sides, you can't argue." - Jack Butcher
 - 2026-11-18 16:15:18 UTC: "Start where you are. Use what you have. Do what you can." - Arthur Ashe
 - 2026-11-19 16:23:06 UTC: "You are never too old to become younger." - Mae West
+- 2026-11-20 15:56:40 UTC: "Never waste a minute of your precious life thinking about people you don't like." - Celestine Chua
